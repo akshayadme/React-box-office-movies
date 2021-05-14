@@ -1,10 +1,12 @@
-import React from "react";
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <h1>hi</h1>
-    </div>
+    <Switch>
+      <Route exact path="/" />
+      <Route>404 page</Route>
+    </Switch>
   );
 }
 
