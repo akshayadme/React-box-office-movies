@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { SearchCard } from '../styled';
 
 export const StyledActorCard = styled(SearchCard)`
-  .deathday {
+  .death-day {
     margin: 0;
     margin-top: 15px;
     font-weight: bold;
