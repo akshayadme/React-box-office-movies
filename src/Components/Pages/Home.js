@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import ActorGrid from '../actors/ActorGrid';
 import MainPageLayout from '../MainPageLayout';
 import { apiGet } from '../misc/Config';
+import ShowGrid from '../shows/ShowGrid';
 
 const Home = () => {
   const [input, setInput] = useState('');
@@ -11,7 +13,6 @@ const Home = () => {
 
   const onSearch = async () => {
     const result = await apiGet(`/search/${searchOptions}?q=${input}`);
-    // console.log(result);
     setResults(result);
   };
 
@@ -24,13 +25,11 @@ const Home = () => {
       return <div>No Results Found</div>;
     }
     if (results && results.length > 0) {
-      return results[0].show
-        ? results.map((data, index) => {
-            return <div key={index}>{data.show.name}</div>;
-          })
-        : results.map((data, index) => {
-            return <div key={index}>{data.person.name}</div>;
-          });
+      return results[0].show ? (
+        <ShowGrid data={results} />
+      ) : (
+        <ActorGrid data={results} />
+      );
     }
     return null;
   };
