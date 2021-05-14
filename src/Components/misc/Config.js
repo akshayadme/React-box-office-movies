@@ -6,6 +6,6 @@ export async function apiGet(queryString) {
     const result = await response.json();
     return result;
   } catch (error) {
-    console.log(error.message);
+    console.log(error);
   }
 }
