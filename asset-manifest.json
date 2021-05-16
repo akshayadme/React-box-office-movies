@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-box-office-movies/static/css/main.5fffadb5.chunk.css",
-    "main.js": "/React-box-office-movies/static/js/main.3b3feca0.chunk.js",
-    "main.js.map": "/React-box-office-movies/static/js/main.3b3feca0.chunk.js.map",
+    "main.js": "/React-box-office-movies/static/js/main.95e5987e.chunk.js",
+    "main.js.map": "/React-box-office-movies/static/js/main.95e5987e.chunk.js.map",
     "runtime-main.js": "/React-box-office-movies/static/js/runtime-main.9a825ed3.js",
     "runtime-main.js.map": "/React-box-office-movies/static/js/runtime-main.9a825ed3.js.map",
     "static/js/2.1009d70b.chunk.js": "/React-box-office-movies/static/js/2.1009d70b.chunk.js",
@@ -10,6 +10,8 @@
     "static/js/3.fea7818d.chunk.js": "/React-box-office-movies/static/js/3.fea7818d.chunk.js",
     "static/js/3.fea7818d.chunk.js.map": "/React-box-office-movies/static/js/3.fea7818d.chunk.js.map",
     "index.html": "/React-box-office-movies/index.html",
+    "service-worker.js": "/React-box-office-movies/service-worker.js",
+    "service-worker.js.map": "/React-box-office-movies/service-worker.js.map",
     "static/css/main.5fffadb5.chunk.css.map": "/React-box-office-movies/static/css/main.5fffadb5.chunk.css.map",
     "static/js/2.1009d70b.chunk.js.LICENSE.txt": "/React-box-office-movies/static/js/2.1009d70b.chunk.js.LICENSE.txt"
   },
@@ -17,6 +19,6 @@
     "static/js/runtime-main.9a825ed3.js",
     "static/js/2.1009d70b.chunk.js",
     "static/css/main.5fffadb5.chunk.css",
-    "static/js/main.3b3feca0.chunk.js"
+    "static/js/main.95e5987e.chunk.js"
   ]
 }
